@@ -53,3 +53,149 @@ html{
   nav img{
     width: 4.3rem;
   }
+  nav img{
+    width: 4.3rem;
+  }
+  .section1{
+    margin-top: 2rem;
+  }
+  .section1Container{
+    width: 90%;
+    margin-inline: auto;
+   display: grid;
+   grid-auto-flow: column;
+  }
+  .Section1Div1{
+    padding-right: 2rem;
+  }
+  .Section1Div1 h1{
+  max-width: 25ch;
+  font-size: 3rem;
+  }
+  .Section1Div1 p{
+    max-width: 58ch;
+  }
+  .Section1Div1 a button{
+    padding: 0.7rem;
+    font-size: 1.5rem;
+  }
+  .Section1Div1 button:hover{
+    box-shadow: 0 0 1.0rem  0 red;
+  }
+  .section1Div2 img{
+    max-width: 45.705rem;
+  }
+  .section1Div2{
+    min-width: 28ch;
+  }
+  .section2{
+    padding-block:2rem;
+  }
+  .section2Container{
+    width: 90%;
+    margin-inline: auto;
+  }
+  .section2Container h1{
+  text-align: center;
+  font-size: 3rem;
+  }
+  .section2Div2{
+    display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns:  1fr;
+  }
+  .section2Div2 div{
+    padding-inline:1rem;
+  }
+  .section2Div2 div img{
+    max-width: 100%;
+    border-radius: 4%;
+  }
+  .section2Div2 div img:hover{
+    box-shadow: 0 0 1.0rem  0 var(--clr-hover-semi);
+  }
+  .section2Div2 h3{
+    text-align: center;
+  }
+  .section3{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .section3Container{
+    width:90%;
+    margin-inline: auto;
+    background: hsla(0,0%,20%,0.4);
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold; 
+  }
+  .section3Container div{
+    width: 90%;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .section3Container div p::after{
+    content: '-ITACHI UCHIHA';
+    display: block;
+    margin-top: 5rem;
+  }
+  .section4{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .section4Container{
+    width: 70%;
+    margin-inline: auto;
+    background: hsl(0,0%,20%);
+    min-height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 16rem;
+  }
+  .section4SubContainer{
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section4SubContainer div p{
+    max-width: 30ch;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+  }
+  .section4SubContainer div img{
+    width: 6rem; 
+  }
+  .section4SubContainer div button{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background:hsla(0,0%,20%,0.4);
+    color: var(--clr-txt-light);
+  }
+  .section4SubContainer div button:hover{
+    box-shadow: 0 0 1.0rem  0 red;
+  }
+  .section5{
+    padding-block: 2rem;
+  }
+  .section5Container{
+    width:90%;
+    margin-inline:auto;
+    background: hsl(0,0%,40%);
+    display: flex;
+    text-align: center;
+    min-height: 5rem;
+    align-items: center;
+    
+  }
+  .section5Container div{
+    width:90%;
+    margin-inline:auto;
+  }
