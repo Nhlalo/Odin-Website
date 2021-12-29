@@ -199,3 +199,61 @@ html{
     width:90%;
     margin-inline:auto;
   }
+  @media (max-width:43.75rem){
+    body{
+      font-size: 1.29rem;
+    }
+    .styleDivHeader ul li{
+      display: block;
+    }
+    .section1{
+      margin-top: 0rem;
+    }
+    .section1Container{
+     display: grid;
+     grid-auto-flow: row;
+    }
+   .Section1Div1{
+     padding-bottom: 1.5rem;
+    }
+   .Section1Div1 h1{
+      font-size: 2.5rem;
+    }
+    .section1Div2 img{
+      max-width: 100%;
+      border-radius: 10%;
+      margin-top: 1rem;
+    }
+    .Section1Div1 p{
+      max-width: 70ch;
+    }
+    .Section1Div1 a button{
+      font-size: 1rem;
+    }
+   .section2Div2{
+      display: grid;
+     grid-auto-flow: row;
+     grid-auto-rows: 1fr;
+    }
+    .section2Container h1{
+       font-size: 2.5rem;
+    }
+    .section4Container{
+      width: 90%;
+      padding-block: 2rem;
+    }
+    .section4SubContainer{
+      display: flex;
+      flex-direction: column;
+    }
+    .section4SubContainer div img{
+      width: 4rem;
+      margin-right: 21rem;   
+    }
+    .section4SubContainer div button{
+      font-size: 1rem;
+    }
+    .section4SubContainer div p{
+      font-size: 1.5rem;
+    }
+  }
