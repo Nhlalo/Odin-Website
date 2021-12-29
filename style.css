@@ -83,7 +83,8 @@ html{
     box-shadow: 0 0 1.0rem  0 red;
   }
   .section1Div2 img{
-    max-width: 45.705rem;
+    max-width: 39.705rem;
+    margin-top: 4rem;
   }
   .section1Div2{
     min-width: 28ch;
