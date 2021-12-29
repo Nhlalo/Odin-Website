@@ -32,7 +32,8 @@ html{
   }
   .styleDivHeader ul li{
     list-style: none;
-    padding-inline: 0.4rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     display: inline-block;
   }
   .styleDivHeader ul li::after{
@@ -61,7 +62,9 @@ html{
   }
   .section1Container{
     width: 90%;
-    margin-inline: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
    display: grid;
    grid-auto-flow: column;
   }
@@ -90,11 +93,13 @@ html{
     min-width: 28ch;
   }
   .section2{
-    padding-block:2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
   }
   .section2Container{
     width: 90%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .section2Container h1{
   text-align: center;
@@ -106,7 +111,8 @@ html{
    grid-auto-columns:  1fr;
   }
   .section2Div2 div{
-    padding-inline:1rem;
+    padding-right:1rem;
+    padding-left:1rem;
   }
   .section2Div2 div img{
     max-width: 100%;
@@ -124,7 +130,8 @@ html{
   }
   .section3Container{
     width:90%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: hsla(0,0%,20%,0.4);
     min-height: 30rem;
     display: flex;
@@ -135,7 +142,8 @@ html{
   }
   .section3Container div{
     width: 90%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
   .section3Container div p::after{
@@ -149,7 +157,8 @@ html{
   }
   .section4Container{
     width: 70%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: hsl(0,0%,20%);
     min-height: 8rem;
     display: flex;
@@ -160,7 +169,8 @@ html{
   .section4SubContainer{
     display: flex;
     width: 90%;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     justify-content: space-between;
   }
@@ -184,11 +194,14 @@ html{
     box-shadow: 0 0 1.0rem  0 red;
   }
   .section5{
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
   }
   .section5Container{
     width:90%;
-    margin-inline:auto;
+    margin-left:auto;
+    margin-right:auto;
     background: hsl(0,0%,40%);
     display: flex;
     text-align: center;
@@ -198,7 +211,8 @@ html{
   }
   .section5Container div{
     width:90%;
-    margin-inline:auto;
+    margin-right:auto;
+    margin-left:auto;
   }
   @media (max-width:43.75rem){
     body{
@@ -241,7 +255,8 @@ html{
     }
     .section4Container{
       width: 90%;
-      padding-block: 2rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
     .section4SubContainer{
       display: flex;
